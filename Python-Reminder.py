@@ -68,7 +68,7 @@ def popupmsgtimer():
     sualt = int(resualt)
     time.sleep(sualt)
     toaster = ToastNotifier()
-    toaster.show_toast("WinReminder", (notifyinfo), duration=10, threaded=True)
+    toaster.show_toast("Python-Reminder", (notifyinfo), duration=10, threaded=True)
 
 
 def test():
