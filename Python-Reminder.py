@@ -36,11 +36,7 @@ mhd = Entry(root, width=37, font=("none 8 bold"))
 mhd.grid(row=5, column=1, sticky=W)
 
 
-# Take input from use and turn it into seconds (time.sleep uses seconds)
-
-
 # Function
-
 def popupmsgtimer():
     notifyinfo = (textentry1.get())
     howlongwait = (textentry2.get())
